@@ -44,6 +44,7 @@
     "release-minor": "standard-version --release-as minor --tag-prefix v && pnpm run build",
     "release-patch": "standard-version --release-as patch --tag-prefix v && pnpm run build",
     "lint": "eslint --ext .js,.ts,.tsx,.vue",
+    "lint-staged": "eslint --ext .js,.ts,.tsx,.vue",
     "lint:fix": "eslint --ext .js,.ts,.tsx,.vue --fix"
   },
   "dependencies": {
