@@ -7,7 +7,7 @@
   "types": "es/index.d.ts",
   "unpkg": "dist/index.prod.js",
   "jsdelivr": "dist/index.prod.js",
-  "author": "yue1123",
+  "author": "johnson4396",
   "license": "MIT",
   "exports": {
     "./es": "./es/index.js",

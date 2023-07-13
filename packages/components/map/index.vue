@@ -327,7 +327,7 @@
   function init() {
     if (!isClient) return
     getScriptAsync({
-      src: `//api.map.baidu.com/api?type=webgl&v=1.0&ak=${ak}&callback=${scriptKey}`,
+      src: `//api.map.baidu.com/api?type=webgl&v=3.0&ak=${ak}&callback=${scriptKey}`,
       addCalToWindow: true,
       key: scriptKey
     })
